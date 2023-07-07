@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body{
+    background:linear-gradient(rgba(187, 71, 71, 0.225),rgba(83, 83, 198, 0.571),rgba(23, 103, 23, 0.488));
+  }
+  .header {
+    font-size: 80px;
+    text-align: center;
+    font-weight: bold;
+  }
+  #array {
+    /* background-color: white; */
+    height: 400px;
+    width: 600px;
+    margin: auto;
+    position: relative;
+    margin-top: 64px;
+    color: white;
+  }
+  #input{
+    display: flex;
+    padding: 10px;
+    font-size: 30px;
+    /* color: rgb(29, 194, 29); */
+    justify-content: space-around;
+    font-weight: bold;
+}
+  .block {
+    width: 28px;
+    background-color: #6b5b95;
+    /* background-color: #00e904; */
+    position: absolute;
+    bottom: 0px;
+    transition: 0.2s all ease;
+  }
+  .block_id {
+    position: absolute;
+    color: black;
+    margin-top: -20px;
+    width: 100%;
+    text-align: center;
+  }
+  .block_id2 {
+    position: absolute;
+    color: black;
+    margin-top: 22px;
+    width: 100%;
+    text-align: center;
+  }
+  .block_id3 {
+    position: absolute;
+    color: black;
+    margin-top: 1px;
+    width: 100%;
+    text-align: center;
+  }
+  .bucket {
+    width: 256px;
+    height: 260px;
+    position: relative;
+  }
+  .bucket2 {
+    margin: auto;
+    width: 148px;
+    height: 260px;
+    
+  }
+  .firstbucket {
+    width: 28px;
+    /* background-color: #6b5b95; */
+    background-color: rgb(214, 37, 21);
+    position: absolute;
+    bottom: 0px;
+    transition: 0.2s all ease;
+  }
+  .secondbucket {
+    width: 28px;
+    /* background-color: #6b5b95; */
+    background-color: rgb(182, 232, 34);
+    position: absolute;
+    bottom: 0px;
+    transition: 0.2s all ease;
+  }
+  .thirdbucket {
+    width: 28px;
+    /* background-color: #6b5b95; */
+    background-color: rgb(125, 56, 92);
+    position: absolute;
+    bottom: 0px;
+    transition: 0.2s all ease;
+  }
+  .fourthbucket {
+    width: 28px;
+    background-color: rgb(52, 52, 178);
+    position: absolute;
+    bottom: 0px;
+    transition: 0.2s all ease;
+  }
+ 
+  
